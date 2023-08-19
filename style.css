@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav .img1{
+    padding-left: 40px;
+}
+.content1{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+@media screen and (max-width: 1013px ){
+    .content1{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 942px){
+    .content1{
+        gap: 30px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 906px){
+    .content1{
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width: 839px){
+    .content1{
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 800px){
+    .content1{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 750px){
+    .content1{
+        gap: 5px;
+        font-size: 9px;
+    }
+}
+
+.slider1{
+    background-image: url(./assets/sea.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;   
+}
+.left img{
+    height: 50px;
+}
+.right img{
+    height: 50px;
+}
+.content2{
+    color:fuchsia;
+    text-align: center;
+}
+.hero_section{
+    display: flex;
+    padding: 80px;
+}
+.hero_section .content3{
+    width: 50%;
+    justify-content: center;
+}
+ a{
+    border: none;
+}
+.hero_image{
+    width: 50%;
+    padding: 30px;
+}
+.social_networks{
+    padding-left: 40px;
+    display: flex;
+    gap: 10px;
+}
+.social_networks img{
+    height: 30px;
+}
+.hero_image1 img{
+    height: 400px;
+}
+
+.logos h1{
+    font-size: 70px;
+    text-align: center;
+}
+.logos .logos1{
+    padding:50px 200px;
+}
+.logos1 img{
+    height: 150px;
+}
+.heading1 h2{
+    text-align: center;
+    font-weight: bold;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.image1 img{
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.image_con{
+    display: flex;
+    justify-content: space-around;
+}
+ .more{
+    padding-top: 50px;
+ }
+.heading2 h3{
+    font-size: 50px;
+    text-align: center;
+}
+.hero_section2{
+    padding-top: 30px;
+    display: flex;
+}
+.image4 img{
+    padding-top: 60px;
+    width: 90%;
+}
+.content6{
+    width: 50%;
+    padding-right: 140px;
+}
