@@ -145,3 +145,117 @@
     width: 50%;
     padding-right: 140px;
 }
+.heading3 h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.card1 .img1 img{
+    width: 500px; 
+    border: 15px solid whitesmoke;
+}
+.card1 .img1 h3{
+    color: skyblue;
+    font-weight: bolder;
+}
+.card1 .img1 p{
+    font-size: 12px;
+}
+.card2{
+    display: flex;
+    padding-top: 10px;
+}
+.card2 .img1 img{
+    width: 500px; 
+    border: 15px solid whitesmoke;
+}
+.card2 .img1 h3{
+    color: skyblue;
+    font-weight: bolder;
+}
+.card2 .img1 p{
+    font-size: 12px;
+}
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+.button button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(127, 255, 189);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.scientific_commitee{
+    padding-bottom: 30px;
+}
+.hero_section{
+    display: flex;
+    background-image: url(./assets/GprDRh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.session{
+    width: 40%;
+}
+.heading4 h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.heading4 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Unorder {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.button1 button{
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.session1{
+    width: 60%;
+    background-color: black;
+    padding: 100px;
+}
+.session1 .Register{
+    text-align: center;
+}
+.Register h2 p{
+    color: white;
+}
+.Register h2{
+    padding-bottom: 8px;
+}
+.Register_Now{
+    text-align: center;
+    padding-top:100px ;
+}
+.Register_Now button{
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Links{
+    padding-bottom: 50px;
+}
+.border{
+    display: flex;
+    justify-content: space-between;
+}
