@@ -15,41 +15,86 @@
     display: flex;
     align-items: center;
     gap: 40px; 
+    cursor: pointer;
 }
-@media screen and (max-width: 1013px ){
+.content1 a{
+    text-decoration: none;
+    color: black;
+}
+.burger_menu{
+    padding-top: 30px;
+    display: none;
+}
+.dot{
+    width: 80px;
+    background-color: black;
+    padding: 5px; 
+    border-radius: 5px;  
+}
+.bar{
+    padding-bottom: 10px;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 0.5rem;
+    height: 0;
+    top: 105px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+.dropdown_menu.open{
+    height: 330px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1150px ){
     .content1{
-        font-size: 10px;
+        gap: 30px;
     }
 
 }
-@media screen and (max-width: 942px){
-    .content1{
-        gap: 30px;
-        font-size: 10px;
-    }
-}
-@media screen and (max-width: 906px){
+@media screen and (max-width: 1075px ){
     .content1{
         gap: 20px;
     }
 
 }
-@media screen and (max-width: 839px){
+@media screen and (max-width: 1013px ){
     .content1{
-        gap: 15px;
-    }
-}
-@media screen and (max-width: 800px){
-    .content1{
+        font-size: 17px;
         gap: 10px;
     }
+
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 960px){
     .content1{
-        gap: 5px;
-        font-size: 9px;
+        display: none;
     }
+     .burger_menu{
+        display: block;
+        cursor: pointer;
+    }
+    .dropdown_menu{
+        display: block;
+    } 
+    
 }
+
 
 .slider1{
     background-image: url(./assets/sea.jpeg);
@@ -70,7 +115,9 @@
 .content2{
     color:fuchsia;
     text-align: center;
+    display: none;
 }
+/* hero section */
 .hero_section{
     display: flex;
     padding: 80px;
@@ -79,8 +126,15 @@
     width: 50%;
     justify-content: center;
 }
- a{
-    border: none;
+.content3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    cursor: pointer;
+}
+.content3 #para{
+    display: none;
 }
 .hero_image{
     width: 50%;
@@ -97,6 +151,33 @@
 .hero_image1 img{
     height: 400px;
 }
+/* hero_section mediaquary */
+@media screen and (max-width: 1500px){
+    .hero_image1 img{
+        height: 380px;
+    }
+}
+@media screen and (max-width: 1450px){
+    .hero_image1 img{
+        height: 360px;
+    }
+}
+@media screen and (max-width: 1370px){
+    .hero_image1 img{
+        height: 340px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .hero_image1 img{
+        height: 320px;
+    }
+}
+@media screen and (max-width: 1230px){
+    .hero_image1 img{
+        height: 300px;      
+        
+    }
+}
 
 .logos h1{
     font-size: 70px;
@@ -107,6 +188,9 @@
 }
 .logos1 img{
     height: 150px;
+}
+.cards_section{
+    padding-top: 50px;
 }
 .heading1 h2{
     text-align: center;
@@ -173,6 +257,24 @@
     font-weight: bolder;
 }
 .card2 .img1 p{
+    font-size: 12px;
+}
+#hidden_card{
+    display: none;
+}
+.card3{
+    display: flex;
+    padding-top: 10px;
+}
+.card3 .img1 img{
+    width: 500px; 
+    border: 15px solid whitesmoke;
+}
+.card3 .img1 h3{
+    color: skyblue;
+    font-weight: bolder;
+}
+.card3 .img1 p{
     font-size: 12px;
 }
 .button{
@@ -244,6 +346,63 @@
     background-color:white;
     font-weight: bold;
     border-radius: 5px;
+}
+.heads{
+    text-align: center;
+}
+.heads h2{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.heads p{
+    font-weight: bold;
+}
+.order{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.order p{
+    padding-left: 20%;
+    font-weight: bold;
+}
+.past_conference_report h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.global{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.global span{
+    font-size: 20px;
+}
+.paragraph{
+    padding: 50px 70px;
+}
+.global a{
+    text-decoration: none;
+    color: black;
+}
+.button2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.view button{
+    padding: 20px 10px;
+    font-weight: bold;
+    background-color: rgba(127, 255, 170, 0.772);
+    border-radius: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 footer{
     width: 100%;
